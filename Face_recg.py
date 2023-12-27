@@ -3,6 +3,7 @@ import os
 import cv2
 import numpy as np
 import pickle
+import pandas
 
 def classify_face(img):
     faces = pickle.loads(open('9save','rb').read())
